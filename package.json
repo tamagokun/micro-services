@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "graft": "^0.3.0",
+    "through2": "^0.6.3",
+    "ws": "^0.4.32"
+  },
+  "devDependencies": {
+    "browserify": "^6.3.2"
+  }
+}
