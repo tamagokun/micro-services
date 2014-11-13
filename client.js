@@ -9,6 +9,7 @@ graft.pipe(ws.client({port: 3000}))
 
 // send message
 graft.write({
+  cmd: 'add',
   a: 2,
   b: 2,
   returnChannel: ret

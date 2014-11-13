@@ -4,6 +4,7 @@ port = process.argv[2] || 3001
 
 module.exports = ->
   through.obj (msg, enc, cb) ->
+    console.log "Hello from le micro service"
     res = msg.a + msg.b
     msg.returnChannel.end res
     cb()
