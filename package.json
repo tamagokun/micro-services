@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "graft": "^0.3.0",
+    "jschan": "^0.2.0",
     "through2": "^0.6.3",
     "ws": "^0.4.32"
   },
